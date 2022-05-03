@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles-tech.css">
+
+    <title> Space tourism website</title>
+</head>
+
+<body>
+    <div class="header">
+        <img class="logo" src="logo.svg" alt="">
+        <div class="navbar">
+            <a class="a" href="index.html">00 Home</a>
+            <a class="a" href='destination.html'>01 Destination</a>
+            <a class="a" href="crew.html">02 Crew</a>
+            <a id="tech" class="a" href="technology.html">03 Technology</a>
+        </div>
+    </div>
+    <span>03</span>
+    <h2> Space launch 101</h2>
+    <div class="btn">
+        <button onclick="launch()">1</button>
+        <button onclick="capsule()" id="two">2</button>
+        <button onclick="spaceport()" id="three">3</button>
+    </div>
+    <div class="content">
+        <h3>The terminology...</h3>
+        <h1 id="name">Launch vehicle</h1>
+        <p id="text">A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a
+            payload from Earth's surface to space, usually to Earth orbit or beyond. Our
+            WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall,
+            it's quite an awe-inspiring sight on the launch pad!</p>
+    </div>
+    <img id="img" src="./image-launch-vehicle-landscape.jpg" alt="">
+</body>
+<script>
+    function launch(){
+        document.getElementById("name").innerHTML = "launch vehicle"
+        document.getElementById("text").innerHTML = "A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry apayload from Earth's surface to space, usually to Earth orbit or beyond. OurWEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall,it's quite an awe-inspiring sight on the launch pad!"
+        document.getElementById("img").src = "./image-launch-vehicle-landscape.jpg"
+    }
+    function capsule(){
+        document.getElementById("name").innerHTML = "space capsule"
+        document.getElementById("text").innerHTML = " A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule to reenter the Earth's atmosphere without wings. Our capsule is where you'll spend your time during the flight. It includes a space gym, cinema, and plenty of other activities to keep you entertained."
+        document.getElementById("img").src = "./image-space-capsule-landscape.jpg"
+    }
+    function spaceport(){
+        document.getElementById("name").innerHTML = "spaceport"
+        document.getElementById("text").innerHTML = "A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to to the seaport for ships or airport for aircraft. Based in the famous Cape Canaveral, our spaceport is ideally situated to take advantage of the Earth’s rotation for launch."
+        document.getElementById("img").src = "./image-spaceport-landscape.jpg"
+    }
+</script>
+</html>

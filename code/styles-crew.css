@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    background: url("./background-crew-desktop.jpg")  no-repeat ;
+    background-size: 100%,100%;
+    overflow: hidden;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+.logo{
+    padding: 50px ;
+}
+.navbar{
+    margin-top: -100px; 
+    margin-left: 45vw;
+    width: 55vw;
+    height: 100px;
+    background: inherit;
+    text-align: center;
+}
+a{
+    cursor: pointer;
+    letter-spacing: 3px;
+    padding-top: 40px;
+    padding-left: 35px;
+    color: white;
+    text-decoration: none;
+    display: inline-flex;
+}
+a:hover{
+    text-decoration: underline 5px rgb(255, 255, 255);
+    text-underline-offset: 42px;
+}
+#crew{
+    text-decoration: underline 5px rgb(255, 255, 255);
+    text-underline-offset: 42px;
+}
+span{
+    color: grey;
+    font-size: 20px;
+    padding-left: 100px;
+}
+h3{
+    margin-top: -28px;
+    letter-spacing: 4px;
+    font-size: 25px;
+    color: white;
+    padding-left: 150px;
+}
+.content{
+    margin-top: 100px;
+    margin-left: 10vw;
+    width: 35vw;
+    color: white;
+}
+#main-img{
+    margin-top: -30vw;
+    margin-left: 55vw;
+}
+h2{
+    letter-spacing: 4px;
+    opacity: 0.6;
+}
+h1{
+    letter-spacing: 4px;
+    font-size: 40px;
+
+}
+p{
+    padding-top: 20px;
+    opacity: 0.7;
+    line-height: 35px;
+    margin-bottom: 0px;
+}
+button{
+    cursor: pointer;
+    border: none;
+    margin-left: 10px ;
+    background-color: rgb(97, 96, 96);
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    margin-top: 70px;
+}
+button:focus{
+    background-color: white;
+}
